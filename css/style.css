@@ -1,5 +1,5 @@
 /* google font  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 /* -------------------
     common styles 
@@ -77,7 +77,52 @@ header{
 
 }
 
-
+/* ----------------------
+    featured bike style 
+------------------------ */
+    .honda-featured-bike h1{
+        font-size: 48px;
+        font-weight: 600;
+        margin-top: 64px;
+        margin-bottom: 21px;
+    }
+    .honda-featured-bike p{
+        font-size: 14px;
+        color: #E76F51;
+        font-weight: 600;
+        margin-bottom: 3.5px;
+    }
+    .honda-featured-bike hr{
+        /* width: 58.5px; */
+        /* width: 100%;
+        margin-left:  auto;
+        height: 10px; */
+        display: inline-block;
+        height: 2px;
+        width: 58.8px;
+        color: red;
+        /* border: 1px solid #e93d12; */
+    }
+    .feature-bike-parent-div{
+        margin-top: 120px;
+        margin-bottom: 165px;
+    }
+    .feature-bike-image-1 {
+        width: 288px;
+        mix-blend-mode: luminosity;
+        
+        
+    }
+    .feature-bike-image-2 {
+        width: 288px;
+       
+    }
+    .feature-bike-image-3 {
+        width: 288px;
+        mix-blend-mode: luminosity;
+       
+        
+    }
 
 /* -----------------
     Media Queries 
@@ -111,5 +156,47 @@ header{
         line-height: 22px;
         color: #FFFFFF;
         margin-top: 50px;
+    }
+}
+
+/* featured bike  */
+@media only screen and (max-width: 576px) {
+    .feature-bike-parent-div{
+        margin-top: 120px;
+        margin-bottom: 165px;
+    }
+    .feature-bike-image-1 {
+        width: 288px;
+        mix-blend-mode: luminosity;
+        margin-bottom: 116px;
+        margin-right: 35px;
+        margin-left: 35px;
+        
+    }
+    .feature-bike-image-2 {
+        width: 288px;
+        margin-bottom: 144px;
+        margin-right: 35px;
+        margin-left: 35px;
+       
+    }
+    .feature-bike-image-3 {
+        width: 288px;
+        mix-blend-mode: luminosity;
+        margin-right: 35px;
+        margin-left: 35px;
+        
+    }
+    .honda-featured-bike h1{
+        font-size: 36px;
+        font-weight: 600;
+        margin-top: 107px;
+        margin-bottom: 21px;
+    }
+    .honda-featured-bike p{
+        font-size: 14px;
+        color: #E76F51;
+        font-weight: 600;
+        margin-bottom: 3.5px;
     }
 }
