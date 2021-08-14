@@ -39,3 +39,77 @@ header{
     text-decoration: none;
     font-weight: 500;
 }
+
+/* banner styles  */
+.honda-banner-button{
+    width: 168px;
+    background-color: #E76F51;
+    height: 44px;
+    border-radius: 5px;
+    border: none ;
+    padding: 10px;
+    color: white;
+}
+.honda-banner-text h1{
+    width: 456px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+    margin-top: 24px;
+}
+.honda-banner-text p{
+    width: 456px;
+    color: #E0E0E0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 21px;
+}
+.honda-banner-text small{
+    width: 480px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.honda-banner-image img{
+    width: 552px;
+    margin-top: 69px;
+
+}
+
+
+
+/* -----------------
+    Media Queries 
+------------------- */
+/* header  */
+@media only screen and (max-width: 576px) {
+    .honda-banner-image img{
+        width: 321px;
+        margin-top: 56px;
+        margin-bottom: 34px;
+    
+    }
+    .honda-banner-text h1{
+        width: 310px;
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .honda-banner-text p{
+        width: 321px;
+        color: #E0E0E0;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+        margin-bottom: 24px;
+    }
+    .honda-banner-text small{
+        width: 325px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-top: 50px;
+    }
+}
