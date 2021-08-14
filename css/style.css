@@ -1,0 +1,41 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* -------------------
+    common styles 
+------------------- */
+
+body{
+    font-family: 'Poppins', sans-serif
+}
+
+
+
+/* ------------------
+    header style  
+--------------------*/
+header{
+    background-color: 
+    #264653;
+}
+
+/* nav style  */
+
+.honda-login-button{
+    background-color: #E76F51;
+    width: 91px;
+    height: 44px;
+    border-radius: 5px;
+    border: none;
+    padding:10px, 24px, 10px, 24px;
+    color: white;
+    margin-left: 100px;
+    font-weight: 500;
+}
+.honda-nav-ul a{
+    font-size: 16px;
+    margin-left: 36px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
