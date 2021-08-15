@@ -124,6 +124,72 @@ header{
         
     }
 
+ /*------------------
+     latest news style 
+----------------------*/
+    .honda-latest-news h2{
+        font-size: 48px;
+        font-weight: 600;
+        margin-bottom: 47px;
+    }
+    .honda-latest-news{
+        margin-bottom: 160px;
+    }
+
+    .honda-latest-news-button{
+        width: 160px;
+        height: 57px;
+        border-radius: 5px;
+        border: 1px solid #E76F51;
+        padding: 15px;
+        background-color: #E76F51;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .honda-latest-news-button:hover{
+        background-color: transparent;
+        color: #E76F51 ;
+        transition: all .3s ease ;
+    }   
+    .honda-latest-news-card img{
+        width: 330px;
+        border-radius: 10px;
+        /* padding: 20px; */
+        /* margin: 40px 0px; */
+    }
+    .honda-latest-news-card {
+        width: 370px;
+        height: 579px;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        /* margin: 0px 20px; */
+        padding: 20px;
+    }
+    .honda-latest-news-card-body p{
+        width: 330px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #6C6C6C;
+    }
+    .honda-latest-news-card-body{
+        padding-right: 5px;
+    }
+    .honda-latest-news-card h5{
+        font-size: 28px;
+        width: 337px;
+        font-weight: 600;
+        line-height: 40px;
+        color: #18191F;
+    }
+
+
+
+
+
+
+
 /* -----------------
     Media Queries 
 ------------------- */
@@ -198,5 +264,52 @@ header{
         color: #E76F51;
         font-weight: 600;
         margin-bottom: 3.5px;
+    }
+}
+/* latest News */
+@media only screen and (max-width: 576px) {
+    .honda-latest-news-card {
+        width: 340px;
+        height: 506px;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        /* margin: 0px 20px; */
+        padding: 20px;
+    }
+    .honda-latest-news-card img{
+        width: 294px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        /* padding: 20px; */
+        /* margin: 40px 0px; */
+    }
+    .honda-latest-news-card h5{
+        font-size: 24px;
+        width: 294px;
+        font-weight: 600;
+        line-height: 40px;
+        color: #18191F;
+    }
+    .honda-latest-news-card-body p{
+        width: 294px;
+        font-size: 13px;
+        padding-right: 5px;
+    }
+    .honda-latest-news-button{
+        width: 139px;
+        height: 57px;
+        padding: 13px;
+        /* margin-top: 20px; */
+        margin-left: 12px;
+    }
+    .honda-latest-news h2{
+        font-size: 36px;
+        width: 219px;
+        font-weight: 600;
+        margin-bottom: 42px;
+    }
+    .honda-latest-news{
+        margin-bottom: 160px;
     }
 }
