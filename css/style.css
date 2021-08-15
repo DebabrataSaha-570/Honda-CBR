@@ -184,11 +184,65 @@ header{
         color: #18191F;
     }
 
+/*----------------------
+     Honda client style 
+------------------------- */
+.honda-client h2{
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 600;
+    margin-bottom: 52px;
+}
+.honda-client span{
+    color: #E76F51;
+}
+.honda-clinet-card{
+    width: 350px;
+    height: 530px;
+    align-items: center;
+    padding: 40px 35px;
+    background: #FFFFFF;
+border: 1px solid #DEDEDE;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.honda-clinet-card img{
+    width: 149px;
+    margin-bottom: 30px;
+}
 
+.starts i{
+    color: #E77C40;
+    width: 22px;
+    height: 22px;
+    margin: 16px 3px;
 
-
-
-
+}
+.honda-client-card-small-text-1{
+    color: #23A6F0;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.honda-client-card-small-text-2{
+    font-size: 14px;
+    font-weight: 600;
+    color: #252B42;
+    display: block;
+    margin-bottom: 40px;
+}
+.honda-client-card-text{
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+}
+.honda-client-image-3{
+    border-radius: 50%;
+    width: 149px;
+    height: 149px;
+    margin-bottom: 57px !important;
+}
 
 /* -----------------
     Media Queries 
@@ -312,4 +366,17 @@ header{
     .honda-latest-news{
         margin-bottom: 160px;
     }
+}
+
+/* honda client  */
+@media only screen and (max-width: 576px) {
+    .honda-client h2{
+        font-size: 40px;
+        line-height: 54px;
+        /* width: 220px; */
+        /* align-items: center; */
+        font-weight: 600;
+        margin-bottom: 52px;
+    }
+    
 }
