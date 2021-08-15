@@ -245,6 +245,36 @@ border-radius: 5px;
 }
 
 /* -----------------
+    F.A.Q styles 
+------------------ */
+.honda-FAQ-section{
+    margin-top: 158px;
+    margin-bottom: 139px;
+}
+.honda-FAQ-section h3{
+    /* width: 678px; */
+    font-size: 48px;
+    font-weight: 600;
+    /* margin-top: 158px; */
+    margin-bottom: 112px;
+}
+.honda-FAQ-section span{
+    color: #E76F51;
+}
+.honda-FAQ-img{
+    width: 431px;
+    height: 423px;
+}
+.honda-FAQ-accordian{
+    border:  1px solid #D5E5FB;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* -----------------
     Media Queries 
 ------------------- */
 /* header  */
@@ -377,6 +407,30 @@ border-radius: 5px;
         /* align-items: center; */
         font-weight: 600;
         margin-bottom: 52px;
+    }
+    
+}
+
+/* F.A.Q  */
+
+@media only screen and (max-width: 576px) {
+    .honda-FAQ-section h3{
+        font-size: 36px;
+        font-weight: 600;
+        /* margin-top: 158px; */
+        margin-bottom: 23px;
+    }
+    .honda-FAQ-section{
+        margin-top: 66px;
+        margin-bottom: 139px;
+    }
+   
+    .honda-FAQ-img{
+        width: 274px;
+        height: 269px;
+        margin-bottom: 67px;
+        /* margin: 0 auto; */
+        margin-left: 2rem;
     }
     
 }
