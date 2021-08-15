@@ -17,6 +17,7 @@ body{
 header{
     background-color: 
     #264653;
+    width: 100%;
 }
 
 /* nav style  */
@@ -271,6 +272,25 @@ border-radius: 5px;
 .honda-FAQ-accordian{
     border:  1px solid #D5E5FB;
     margin-top: 20px;
+}
+
+/* --------------------
+    contact us Styles 
+---------------------- */
+.honda-contact-button{
+    width: 140px;
+        height: 57px;
+        border-radius: 5px;
+        border: 2px solid #E76F51;
+        padding: 15px;
+        background-color: #E76F51;
+        color: #FFFFFF;
+        cursor: pointer;
+}
+.honda-contact-button:hover{
+    background-color: transparent;
+    color: #E76F51;
+    transition: all .3s ease;
 }
 
 

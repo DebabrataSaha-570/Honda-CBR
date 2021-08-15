@@ -144,7 +144,7 @@
             <h2 class="text-center">Latest News</h2>
 
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 col-md-6">
                     <div class="card h-100 honda-latest-news-card">
                         <img src="./images/bike-1.png" class="card-img-top" alt="...">
                         <div class="card-body honda-latest-news-card-body">
@@ -161,9 +161,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 col-md-6">
                     <div class="card h-100 honda-latest-news-card">
-                        <img src="./images/bike-2.png" class="card-img-top" alt="...">
+                        <img src="./images/bike-2.png" class="card-img-top img-fluid" alt="...">
                         <div class="card-body honda-latest-news-card-body">
                             <h5 class="card-title">Motorcyles & Scooters</h5>
                             <p class="card-text">Honda Motorcycle & Scooter India (HMSI) on Tuesday reported a 20 % rise
@@ -175,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 col-md-6">
                     <div class="card h-100 honda-latest-news-card">
                         <img src="./images/bike-3.png" class="card-img-top" alt="...">
                         <div class="card-body honda-latest-news-card-body">
@@ -356,6 +356,39 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+
+        <!-- get in touch  -->
+        <section class="container mb-5">
+            <h1 class="text-center mb-5 fw-bold">Contact <span style="color: #E76F51;"> Us</span> </h1>
+            <form class="row g-3">
+
+                <div class="col-md-6 col-lg-6 col-12">
+                    <label for="firstName" class="form-label">First Name </label>
+                    <input type="text" class="form-control" name="" id="firstName" required>
+                </div>
+                <div class="col-md-6 col-lg-6 col-12">
+                    <label for="lastName" class="form-label">Last Name </label>
+                    <input type="text" class="form-control" name="" id="firstName" required>
+                </div>
+
+                <div class="col-md-8 col-lg-8 col-12">
+                    <label for="emailInfo" class="form-label">E-mail</label>
+                    <input type="email" name="" id="emailInfo" class="form-control" required>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12">
+                    <label for="phoneNumber" class="form-label">Phone</label>
+                    <input type="text" name="" id="phoneNumber" placeholder="+880132345548" class="form-control">
+                </div>
+                <div class="col-md-12 col-lg-12 col-12">
+                    <label for="comments" class="form-label">Questions? </label>
+                    <textarea class="form-control" name="" id="comments" rows="4"></textarea>
+                </div>
+                <div class="col-md-12 col-lg-12 col-12">
+                    <button type="submit" class="honda-contact-button">Submit</button>
+                </div>
+            </form>
         </section>
     </main>
 
