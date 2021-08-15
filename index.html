@@ -36,10 +36,10 @@
                             <a class=" active" aria-current="page" href="#">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class=" active" aria-current="page" href="#">News</a>
+                            <a class=" active" aria-current="page" href="#news">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class=" active" aria-current="page" href="#">Contact</a>
+                            <a class=" active" aria-current="page" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">
@@ -140,7 +140,7 @@
 
         <!-- latest news  -->
 
-        <section class="container honda-latest-news">
+        <section class="container honda-latest-news" id="news">
             <h2 class="text-center">Latest News</h2>
 
             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -358,9 +358,21 @@
             </div>
         </section>
 
+        <!-- subscribe  -->
+        <section class="container shadow pb-5 pt-3 my-5">
+            <h2 class="text-center my-5 fw-bold">Subscribe for regular updates</h2>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-12 align-middle px-5">
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                </div>
+                <div class="col-md-12 col-lg-12 col-12 text-center my-3">
+                    <button class="honda-contact-button ">Subscribe</button>
+                </div>
+            </div>
+        </section>
 
-        <!-- get in touch  -->
-        <section class="container mb-5">
+        <!-- contact us  -->
+        <section class="container my-5" id="contact">
             <h1 class="text-center mb-5 fw-bold">Contact <span style="color: #E76F51;"> Us</span> </h1>
             <form class="row g-3">
 
@@ -390,6 +402,8 @@
                 </div>
             </form>
         </section>
+
+
     </main>
 
     <!-- footer  -->
